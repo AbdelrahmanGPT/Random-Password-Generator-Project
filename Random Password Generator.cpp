@@ -13,7 +13,7 @@ char GenerateRandomCharacter(CharacterType CharacterType)
 	case Capital:
 		return RandomNumber(65 , 90);
 	case Small:
-		return RandomNumber(97 , 123);
+		return RandomNumber(97 , 122);
 	case Digit:
 		return RandomNumber(48 , 57);
 	case Special:
